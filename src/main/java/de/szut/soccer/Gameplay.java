@@ -49,7 +49,7 @@ public class Gameplay {
     }
 
     public void play(){
-        System.out.println(game.getHomeTeam() + " gegen " + game.getAwayTeam());
+        System.out.println(game.getHomeTeam().getName() + " gegen " + game.getAwayTeam().getName()+"\n");
         int duration = (int) ((Math.random() * ((PLAYING_TIME+MAX_ADDITIONAL_TIME) - PLAYING_TIME)) + PLAYING_TIME);
 
         int nextAction = 0;
