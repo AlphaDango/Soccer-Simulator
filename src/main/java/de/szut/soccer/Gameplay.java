@@ -37,7 +37,7 @@ public class Gameplay {
         }
 
         if(goalkeeper.ballHold(player.shootAtGoal())){
-            System.out.println("  "+ goalkeeper.getName() + "pariert glanzvoll!\n");
+            System.out.println("  "+ goalkeeper.getName() + " pariert glanzvoll!\n");
         }else{
             if(team.equals(game.getHomeTeam()))
                 game.incrementHomeGoals();
